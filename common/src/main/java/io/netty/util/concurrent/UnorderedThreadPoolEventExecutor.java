@@ -37,7 +37,7 @@ import java.util.concurrent.TimeUnit;
  *
  * <strong>Because it provides no ordering care should be taken when using it!</strong>
  */
-public final class UnorderedThreadPoolEventExecutor extends ScheduledThreadPoolExecutor implements EventExecutor {
+public class UnorderedThreadPoolEventExecutor extends ScheduledThreadPoolExecutor implements EventExecutor {
     private static final InternalLogger logger = InternalLoggerFactory.getInstance(
             UnorderedThreadPoolEventExecutor.class);
 
